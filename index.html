@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Nav Bar -->
+    <nav>
+      <div class="container nav-container">
+        <a href="" class="logo"><b>RAP</b></a>
+        <div class="desktop-menu">
+          <ul class="nav-links" id="nav-links" class="mobile-container">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Project</a></li>
+            <li><a href="#Experiences">Experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Project</a></li>
+          <li><a href="#Experiences">Experience</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Start Header Section -->
+    <header id="About">
+      <div class="container header-container">
+        <div class="header-left">
+          <img src="./img/Picture 1.png" alt="" />
+        </div>
+        <div class="header-right">
+          <h3 class="heading-name">H'i Im Riyono Adi Prayoga</h3>
+          <h4>Junior Web Developer</h4>
+          <p class="bio">
+            I'm from Indonesia and I am a collage student in STMIK Widya Cipta
+            Dharma. I've been join Widev Class to build certain concept of web,
+            I focusing on web development since 2023, and currently i'am still
+            on progress og learning. Right now I am looking forward to
+            collaborate with you!
+          </p>
+          <div class="header-social">
+            <a href="#Contact" class="btn-icon"> CV </a>
+            <a href=""><img src="./img/whatsapp.svg" class="icon1" alt="" /></a>
+            <a href=""
+              ><img src="./img/instagram.svg" class="icon1" alt=""
+            /></a>
+            <a href=""><img src="./img/github.svg" class="icon1" alt="" /></a>
+            <a href=""><img src="./img/facebook.svg" class="icon1" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- End Header Section -->
+
+    <!-- ....................Start Experience Section.................... -->
+    <section id="Experiences">
+      <p class="heading-p">Explore</p>
+      <h1 class="heading">Experience</h1>
+
+      <div class="container experience-container">
+        <div class="experience-box">
+          <div class="experience">
+            <div class="ex-div">
+              <img src="./img/html-5-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>HTML</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+            <div class="ex-div">
+              <img src="./img/css-3-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>CSS</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+            <div class="ex-div">
+              <img src="./img/javascript-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>Javascript</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+            <div class="ex-div">
+              <img src="./img/php-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>Php</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+            <div class="ex-div">
+              <img src="./img/python-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>Python</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+            <div class="ex-div">
+              <img src="./img/mysql-logo-svgrepo-com.svg" class="icon1" />
+              <div>
+                <h4>Mysql</h4>
+                <p>Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ....................End Experience Section.................... -->
+
+    <!-- ....................Start Project Section.................... -->
+
+    <section id="Projects">
+      <p class="heading-p">Browse My Recent</p>
+      <h1 class="heading">Project</h1>
+
+      <div class="container project-container">
+        <div class="project">
+          <img src="./img/Pariwisata.png" />
+          <h3>Project 1</h3>
+          <div class="header-action-aria">
+            <a href="" class="btn">Pariwisata</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/Pf1.png" />
+          <h3>Project 2</h3>
+          <div class="header-action-aria">
+            <a href="" class="btn">Portofolioku</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/Mockup.png" />
+          <h3>Project 3</h3>
+          <div class="header-action-aria">
+            <a href="" class="btn">Mockup UI</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ....................End Project Section.................... -->
+
+    <!-- ....................Start Contact Section.................... -->
+    <section id="Contact">
+      <p class="heading-p">Get in Touch</p>
+      <h1 class="heading">Contact Me</h1>
+
+      <div class="contact-container container">
+        <div class="email">
+          <img src="./img/email.png" class="icon1" />
+          <a href=""><h5>prayogariyo89@gmail.com</h5></a>
+        </div>
+        <div class="linkedin">
+          <img src="./img/linkedin.png" class="icon1" />
+          <a href=""><h5>linkedin</h5></a>
+        </div>
+      </div>
+    </section>
+    <!-- ....................End Contact Section.................... -->
+
+    <!-- ....................Start Footer Section.................... -->
+    <footer>
+      <p>&copy; Copyright your Prayoga || All Rights Reserved</p>
+    </footer>
+    <!-- ....................End Footer Section.................... -->
+    <script src="main.js"></script>
+  </body>
+</html>
