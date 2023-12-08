@@ -496,9 +496,24 @@ footer .nav-links {
   user-select: none;
 }
 
+.nav-mobile{
+  display: none;
+}
+
 @media (max-width: 450px) {
   #menuToggle {
     display: block;
+  }
+
+  .nav-mobile{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logos{
+   position: absolute;
+   right: 10%;
+    color: var(--color-purple);
   }
 }
 
